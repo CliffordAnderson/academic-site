@@ -1,7 +1,7 @@
 ---
 title: Clifford B. Anderson
 role: Associate University Librarian for Research and Digital Strategy
-avatar_filename: portrait.jpg
+avatar_filename: avatar.jpg
 organizations:
   - name: Vanderbilt University
     url: www.vanderbilt.edu
@@ -24,7 +24,7 @@ social:
     link: https://twitter.com/andersoncliffb
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=sm9QklIAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/cliffordanderson
@@ -36,8 +36,8 @@ education:
     - course: M.S. in Library and Information Science
       institution: Pratt Institute
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Ph.D. in Systematic Theology
+    - course: Ph.D. in Systematic Theology
+      institution: Princeton Theological Seminary
       year: 2005
     - course: Th.M. in Theology
       institution: Princeton Theological Seminary
