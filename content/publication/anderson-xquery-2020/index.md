@@ -13,5 +13,8 @@ featured: true
 publication: "*Texas A&M University Press*"
 tags: ["programming"]
 url_code: https://xquery.forhumanists.org/
+image:
+  caption: "XQuery for Humanists"
+  focal_point: "TopRight"
+  preview_only: false
 ---
-

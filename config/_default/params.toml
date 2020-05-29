@@ -100,7 +100,7 @@ address = {street = "131 21st Avenue South", city = "Nashville", region = "TN", 
 coordinates = {latitude = "36.1480088", longitude = "-86.8002992"}
 
 # Directions for visitors to locate you.
-directions = "The campus of Vanderbilt University is currently closed to visitors due to COVID-19."
+directions = "The campus of Vanderbilt University is closed to visitors due to COVID-19."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
