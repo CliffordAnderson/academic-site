@@ -8,8 +8,8 @@ organizations:
 superuser: true
 authors:
   - admin
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests The study of algorithms as cultural artifacts, computational thinking in the humanities, large-scale textual
+analysis of narrative documents, and the religious dimensions of intellectual property.
 interests:
   - Academic Librarianship
   - Computational Thinking
