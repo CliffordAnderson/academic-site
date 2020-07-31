@@ -21,7 +21,7 @@ authors:
 categories:
   - Computer Science Education
 image:
-  filename: cs1000-01.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
@@ -31,7 +31,9 @@ Among the primary differences were the use of NetsBlox rather than Snap! as the 
 
 We conclude by sharing our own experiences teaching the course as digital humanist and educational technologist rather than as computer scientists and by expressing recommendations about teaching courses in computational thinking to undergraduate students of the humanities and social sciences.
 
-References
+## References
+
+
 \[1] P. Goldenberg, J. Mark, B. Harvey, A. Cuoco, and M. Fries, “Design Principles behind Beauty and Joy of Computing,” in Proceedings of the 51st ACM Technical Symposium on Computer Science Education, Portland, OR, USA, Feb. 2020, pp. 220–226, doi: 10.1145/3328778.3366794.
 
 \[2] B. Broll et al., “A Visual Programming Environment for Learning Distributed Programming,” in Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education, Seattle, Washington, USA, Mar. 2017, pp. 81–86, doi: 10.1145/3017680.3017741.
