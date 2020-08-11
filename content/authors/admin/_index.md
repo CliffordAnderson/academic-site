@@ -8,7 +8,10 @@ organizations:
 superuser: true
 authors:
   - admin
-bio: My research interests include the study of algorithms as cultural artifacts, computational thinking in the humanities, large-scale textual analysis of narrative documents, and the religious dimensions of intellectual property.
+bio: My research interests include the study of algorithms as cultural
+  artifacts, computational thinking in the humanities, large-scale textual
+  analysis of narrative documents, and the religious dimensions of intellectual
+  property.
 interests:
   - Academic Librarianship
   - Computational Thinking
@@ -51,4 +54,4 @@ email: anderson.clifford@gmail.com
 user_groups:
   - Mr.
 ---
-Clifford B. Anderson is Associate University Librarian for Research and Digital Initiatives at the [Vanderbilt University Library](http://www.library.vanderbilt.edu/). He holds a secondary appointment as Professor of [Religious Studies](https://as.vanderbilt.edu/religiousstudies/) in the College of Arts & Science at Vanderbilt University and is affiliated faculty in the [Comparative Media Analysis and Practice](https://as.vanderbilt.edu/cmap/) Joint-Ph.D. program. He is also an Adjunct Professor of Computer Science in the [Department of Electrical Engineering and Computer Science](https://engineering.vanderbilt.edu//eecs/) in the Vanderbilt University School of Engineering.
+Clifford B. Anderson is Associate University Librarian for Research and Digital Strategy at the [Vanderbilt University Library](http://www.library.vanderbilt.edu/). He holds a secondary appointment as Professor of [Religious Studies](https://as.vanderbilt.edu/religiousstudies/) in the College of Arts & Science at Vanderbilt University and is affiliated faculty in the [Comparative Media Analysis and Practice](https://as.vanderbilt.edu/cmap/) Joint-Ph.D. program. From 2018 to 2020, he was also an Adjunct Professor of Computer Science in the [Department of Electrical Engineering and Computer Science](https://engineering.vanderbilt.edu//eecs/) in the Vanderbilt University School of Engineering.
