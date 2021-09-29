@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Learn Wikida"
+title: "Learn Wikidata"
 subtitle: "A Course for Information Professionals"
 summary: "The goal of the project is to develop and implement interactive learning pathways for information professionals to learn the fundamentals of WikiCite."
 authors: [Clifford Anderson, María Pía Arrate, Steve Baskauf, Marymae Jansson, Benjamin Klempay, Charlotte Lew, Greg Weldy, Andrew Wesolek]
