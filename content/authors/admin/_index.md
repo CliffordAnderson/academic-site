@@ -1,8 +1,10 @@
 ---
 title: Clifford B. Anderson
-role: Associate University Librarian for Research and Digital Strategy
+role: Director of Digital Strategy / Chief Digital Strategist
 avatar_filename: avatar.jpg
 organizations:
+  - name: Center of Theological Inquiry
+    url: www.ctinquiry.org
   - name: Vanderbilt University
     url: www.vanderbilt.edu
 superuser: true
@@ -54,4 +56,4 @@ email: anderson.clifford@gmail.com
 user_groups:
   - Mr.
 ---
-Clifford B. Anderson is Associate University Librarian for Research and Digital Strategy at the [Vanderbilt University Library](http://www.library.vanderbilt.edu/). He holds a secondary appointment as Professor of [Religious Studies](https://as.vanderbilt.edu/religiousstudies/) in the College of Arts & Science at Vanderbilt University and is affiliated faculty in the [Comparative Media Analysis and Practice](https://as.vanderbilt.edu/cmap/) Joint-Ph.D. program. From 2018 to 2020, he was also an Adjunct Professor of Computer Science in the [Department of Electrical Engineering and Computer Science](https://engineering.vanderbilt.edu//eecs/) in the Vanderbilt University School of Engineering.
+Clifford B. Anderson is Director of Digital Strategy at the [Center of Theological Inquiry(https://www.ctinquiry.org) in Princeton, NJ. He is also Chief Digital Strategist at the [Vanderbilt University Library](http://www.library.vanderbilt.edu/). He holds a secondary appointment as Professor of [Religious Studies](https://as.vanderbilt.edu/religiousstudies/) in the College of Arts & Science at Vanderbilt University. Among other works, he is co-author of [XQuery for Humanists (Texas A&M University Press, 2020)](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) and editor of [Digital Humanities and Libraries and Archives in Religious Studies (De Gruyter, 2022)](https://www.degruyter.com/document/doi/10.1515/9783110536539/html).
