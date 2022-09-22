@@ -1,6 +1,6 @@
 ---
 title: Clifford B. Anderson
-role: Digital Strategist | Information Scientist | XQuery Expert
+role: Digital Research | Strategy
 avatar_filename: avatar.jpg
 organizations:
   - name: Center of Theological Inquiry
