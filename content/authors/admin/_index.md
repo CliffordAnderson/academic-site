@@ -1,18 +1,16 @@
 ---
 title: Clifford B. Anderson
-role: Digital Research | Strategy
+role: Theological Librarianship
 avatar_filename: avatar.jpg
 organizations:
   - name: Center of Theological Inquiry
     url: https://www.ctinquiry.org
-  - name: Vanderbilt University
-    url: https://www.vanderbilt.edu
 superuser: true
 authors:
   - admin
 bio: My research interests include the study of algorithms as cultural
   artifacts, computational thinking in the humanities, large-scale textual
-  analysis of narrative documents, and the religious dimensions of intellectual
+  analysis of narrative data, and the religious dimensions of intellectual
   property.
 interests:
   - Academic Librarianship
@@ -56,4 +54,4 @@ email: anderson.clifford@gmail.com
 user_groups:
   - Mr.
 ---
-Clifford B. Anderson is Director of Digital Research at the [Center of Theological Inquiry](https://www.ctinquiry.org) in Princeton, NJ. He is also Chief Digital Strategist at the [Vanderbilt University Library](http://www.library.vanderbilt.edu/). He holds a secondary appointment as [Professor of Religious Studies](https://as.vanderbilt.edu/religiousstudies/) in the College of Arts & Science at Vanderbilt University. Among other works, he is co-author of [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
+Clifford B. Anderson is Director of Digital Research at the [Center of Theological Inquiry](https://www.ctinquiry.org) in Princeton, NJ. Among other publications, he is co-author of [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
