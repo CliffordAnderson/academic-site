@@ -89,15 +89,15 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "cliff@cliffordanderson.net"
-phone = "615 322 6938"
+phone = "(609) 638-8545"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "131 21st Avenue South", city = "Nashville", region = "TN", postcode = "37203", country = "United States", country_code = "US"}
+address = {street = "50 Stockton Street", city = "Princeton", region = "NJ", postcode = "08540", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "36.1480088", longitude = "-86.8002992"}
+coordinates = {latitude = "40.3467929", longitude = "-74.6686404"}
 
 # Directions for visitors to locate you.
 directions = "I am currently working remotely."
