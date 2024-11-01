@@ -1,10 +1,10 @@
 ---
 title: Clifford B. Anderson
-role: Theological Librarianship
+role: Director of the Divinity Library
 avatar_filename: avatar.jpg
 organizations:
-  - name: Center of Theological Inquiry
-    url: https://www.ctinquiry.org
+  - name: Yale University
+    url: https://www.yale.edu/
 superuser: true
 authors:
   - admin
@@ -54,4 +54,4 @@ email: anderson.clifford@gmail.com
 user_groups:
   - Mr.
 ---
-Clifford B. Anderson is Director of Digital Research at the [Center of Theological Inquiry](https://www.ctinquiry.org) in Princeton, NJ. Among other publications, he is co-author of [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
+Clifford B. Anderson is the Director of the [Divinity Library](https://web.library.yale.edu/divinity) at Yale University. Among other publications, he is co-author of [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
