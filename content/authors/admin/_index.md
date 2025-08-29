@@ -54,4 +54,4 @@ email: anderson.clifford@gmail.com
 user_groups:
   - Mr.
 ---
-Clifford B. Anderson is the Director of the [Divinity Library](https://web.library.yale.edu/divinity) at Yale University. Among other publications, he is co-author of [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
+Clifford B. Anderson is the Director of the [Divinity Library](https://web.library.yale.edu/divinity) at Yale University. Among other publications, he is co-author of [Artificial Intelligence for Academic Libraries](https://www.routledge.com/Artificial-Intelligence-for-Academic-Libraries/Anderson-Fisher/p/book/9781032680354) (Routledge, 2025), [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022).
