@@ -93,27 +93,26 @@ phone = "(609) 638-8545"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "50 Stockton Street", city = "Princeton", region = "NJ", postcode = "08540", country = "United States", country_code = "US"}
+address = {street = "409 Prospect Street", city = "New Haven", region = "CT", postcode = "06511", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "40.3467929", longitude = "-74.6686404"}
+coordinates = {latitude = "41.323401", longitude = "-72.921468"}
 
 # Directions for visitors to locate you.
-directions = "I am currently working remotely."
+directions = "My office is L107 in the Yale Divinity Library."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
 office_hours = ["Monday 09:00 to 11:00", "Wednesday 09:00 to 11:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/andersoncliffb"
+appointment_url = "https://outlook.office.com/bookwithme/user/8f2e7efcc5a6432298655d85f0c91b83@yale.edu/meetingtype/A2IxEzurnEWiJkDqnXN3vA2?anonymous&ep=mlink"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Tweet to Me", link = "https://twitter.com/andersoncliffb"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:cliffordbanderson?call"},
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/andersoncliffb"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/andersoncliffb"},
