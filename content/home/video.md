@@ -4,7 +4,7 @@ headless = true
 active = true
 weight = 25
 
-title = "TEDx Talk"
+title = "TEDx Talk on Deepfakes"
 subtitle = ""
 
 [design]
@@ -18,4 +18,4 @@ subtitle = ""
  css_class = ""
 +++
 
-{{< youtube id="Hcyfs_Z1Okw" start="64" >}}
+{{< youtube id="Hcyfs_Z1Okw" >}}
