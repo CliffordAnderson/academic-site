@@ -1,51 +1,72 @@
 +++
-# Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+widget = "accomplishments"
+headless = true
+active = true
+weight = 50
 
-title = "Accomplish&shy;ments"
+title = "Certificates & Training"
 subtitle = ""
 
-# Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Accomplishments.
-#   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Amazon Web Services"
+  organization_url = "https://aws.amazon.com/"
+  title = "AWS Certified Cloud Practitioner"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2021-09-11"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "ScrumAlliance"
+  organization_url = "https://www.scrumalliance.org/"
+  title = "Certified ScrumMaster"
+  url = ""
+  certificate_url = ""
+  date_start = "2009-10-27"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = ""
 
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "New York University"
+  organization_url = "https://www.nyu.edu/"
+  title = "Certificate in Intellectual Property Law"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = "2008-11-06"
+  date_end = "2009-08-18"
+  description = "Fundamentals of IP Management, Trademark, Copyright, International IP, Patent Law, and Advanced Patent Law"
+
+[[item]]
+  organization = "Harvard Graduate School of Education"
+  organization_url = "https://www.gse.harvard.edu/"
+  title = "Leadership Institute for Academic Librarians"
+  url = ""
+  certificate_url = ""
+  date_start = "2007-08-06"
+  date_end = "2007-08-10"
+  description = ""
+
+[[item]]
+  organization = "Coursera / National Taiwan University"
+  organization_url = "https://www.coursera.org/"
+  title = "Taiwan Law in Focus: Economy, Society and Democracy"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-11-19"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "openSAP"
+  organization_url = "https://open.sap.com/"
+  title = "From Media Computation to Data Science"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-10-21"
+  date_end = ""
   description = ""
 
 +++
