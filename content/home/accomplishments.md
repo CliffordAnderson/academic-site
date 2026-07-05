@@ -50,16 +50,6 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "Coursera / National Taiwan University"
-  organization_url = "https://www.coursera.org/"
-  title = "Taiwan Law in Focus: Economy, Society and Democracy"
-  url = ""
-  certificate_url = ""
-  date_start = "2021-11-19"
-  date_end = ""
-  description = ""
-
-[[item]]
   organization = "openSAP"
   organization_url = "https://open.sap.com/"
   title = "From Media Computation to Data Science"
