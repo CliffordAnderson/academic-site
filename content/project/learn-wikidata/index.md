@@ -15,7 +15,7 @@ links:
   - icon_pack: fab
     icon: website
     name: Website
-    url: 'www.learnwikidata.net'
+    url: 'https://www.learnwikidata.net'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
