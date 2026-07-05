@@ -47,8 +47,9 @@ The Academic theme is a git submodule at `themes/academic/`. Do not edit files i
 
 ## Potential Future Work
 
-- Add featured images (`featured.jpg` or `featured.png`) to projects and publications that are missing them
-- Fill in `description` fields on experience entries in `content/home/experience.md`
+- Fill in abstracts and DOIs on older publications (as of July 2026, ~55 of 68 entries have empty abstracts and ~51 lack DOIs; the five newest entries plus the recent journal articles are done). Source from publishers where possible; work backward from 2022.
+- Add featured images (`featured.jpg` or `featured.png`) to publications — only 3 of 68 have one. Start with book covers (XQuery for Humanists, Artificial Intelligence for Academic Libraries, Digital Humanities and Libraries and Archives in Religious Studies). All projects already have images.
+- Fill in `description` fields on experience entries in `content/home/experience.md` (all seven are empty)
 - Keep the publications list current as new work is published
-- The `content/home/posts.md`, `content/home/demo.md`, and `content/home/people.md` sections are inactive (`active = false`) — candidates for removal or activation
 - The mapping-berlin project (`content/project/mapping-berlin/`) may need a content update
+- Upgrade Hugo (pinned at 0.70.0, May 2020, in `netlify.toml`) and the Academic theme submodule (Wowchemy is now Hugo Blox). Treat as its own project: separate branch, verify via Netlify deploy preview.
