@@ -1,0 +1,163 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Clifford B. Anderson
+  given: Clifford
+  family: Anderson
+role: Director of the Divinity Library
+bio: |
+  My research interests include the study of algorithms as cultural
+  artifacts, computational thinking in the humanities, large-scale textual
+  analysis of narrative data, and the religious dimensions of intellectual
+  property.
+
+affiliations:
+  - name: Yale University
+    url: https://www.yale.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:anderson.clifford@gmail.com
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/andersoncliffb
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sm9QklIAAAAJ&hl=en
+  - icon: brands/github
+    url: https://github.com/cliffordanderson
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/cliffordbanderson/
+
+interests:
+  - Academic Librarianship
+  - Computational Thinking
+  - Digital Humanities
+  - Theological Studies
+
+education:
+  - degree: M.S. in Library and Information Science
+    institution: Pratt Institute
+    end: 2012-05-01
+  - degree: Ph.D. in Systematic Theology
+    institution: Princeton Theological Seminary
+    end: 2005-05-01
+  - degree: Th.M. in Theology
+    institution: Princeton Theological Seminary
+    end: 1996-05-01
+  - degree: M.Div.
+    institution: Harvard University Divinity School
+    end: 1995-05-01
+  - degree: A.B. in Philosophy
+    institution: Kenyon College
+    end: 1992-05-01
+
+experience:
+  - role: Director of the Divinity Library
+    org: Yale University
+    org_url: https://www.yale.edu/
+    location: New Haven, CT
+    start: 2024-05-01
+  - role: Director of Digital Research
+    org: Center of Theological Inquiry
+    location: Princeton, NJ
+    start: 2022-09-01
+    end: 2024-04-30
+  - role: Chief Digital Strategist
+    org: Jean and Alexander Heard Library, Vanderbilt University
+    org_url: https://www.library.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2022-09-01
+    end: 2024-03-31
+  - role: Professor of Religious Studies (Secondary Appointment)
+    org: College of Arts and Science, Vanderbilt University
+    org_url: https://www.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2017-01-01
+    end: 2024-03-31
+  - role: Associate University Librarian for Research and Digital Strategy
+    org: Jean and Alexander Heard Library, Vanderbilt University
+    org_url: https://www.library.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2019-07-01
+    end: 2022-08-31
+  - role: Adjunct Professor of Computer Science
+    org: School of Engineering, Vanderbilt University
+    org_url: https://www.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2018-08-01
+    end: 2020-08-31
+  - role: Associate University Librarian for Research and Learning
+    org: Jean and Alexander Heard Library, Vanderbilt University
+    org_url: https://www.library.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2016-11-01
+    end: 2019-06-30
+  - role: Director, Scholarly Communications
+    org: Jean and Alexander Heard Library, Vanderbilt University
+    org_url: https://www.library.vanderbilt.edu/
+    location: Nashville, TN
+    start: 2012-11-01
+    end: 2016-10-31
+  - role: Curator, Special Collections
+    org: Princeton Theological Seminary
+    org_url: https://www.ptsem.edu/
+    location: Princeton, NJ
+    start: 2006-09-01
+    end: 2012-10-31
+  - role: Curator of Reformed Research Collections
+    org: Princeton Theological Seminary
+    org_url: https://www.ptsem.edu/
+    location: Princeton, NJ
+    start: 2002-09-01
+    end: 2006-08-31
+
+skills:
+  - name: Programming
+    items:
+      - label: Python
+      - label: JavaScript
+      - label: R
+      - label: SQL
+      - label: XQuery
+      - label: XSLT
+      - label: Scala
+  - name: Databases & Frameworks
+    items:
+      - label: BaseX
+      - label: eXist
+      - label: CouchDB
+      - label: Apache Spark
+      - label: Databricks
+      - label: Langchain
+      - label: Next.js
+
+languages:
+  - name: English
+    label: Native
+  - name: Dutch
+    label: Advanced
+  - name: German
+    label: Advanced
+  - name: French
+    label: Intermediate
+  - name: Chinese
+    label: Intermediate
+
+awards:
+  - title: AWS Certified Cloud Practitioner
+    awarder: Amazon Web Services
+    date: "2021-09-11"
+  - title: From Media Computation to Data Science
+    awarder: openSAP
+    date: "2020-10-21"
+  - title: Certified ScrumMaster
+    awarder: ScrumAlliance
+    date: "2009-10-27"
+  - title: Certificate in Intellectual Property Law
+    awarder: New York University
+    date: "2009-08-18"
+    summary: Fundamentals of IP Management, Trademark, Copyright, International IP, Patent Law, and Advanced Patent Law
+  - title: Leadership Institute for Academic Librarians
+    awarder: Harvard Graduate School of Education
+    date: "2007-08-10"

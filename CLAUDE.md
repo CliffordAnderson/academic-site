@@ -4,53 +4,61 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Site Overview
 
-This is Clifford B. Anderson's personal academic website, built with [Hugo Academic (Wowchemy)](https://wowchemy.com/) and deployed automatically via Netlify on every push to `master`.
+This is Clifford B. Anderson's personal academic website, built with [Hugo Blox Builder](https://hugoblox.com/) (the successor to Wowchemy/Hugo Academic), using the Academic CV template. It deploys automatically via Netlify on every push to `master`.
+
+Migrated from Hugo 0.70.0 + Academic theme v4.8 (git submodule) to Hugo Blox (Hugo modules) in July 2026.
 
 ## Commands
 
 ```bash
-# Local development server (with i18n warnings)
-bash view.sh        # runs: hugo --i18n-warnings server
+# Local development server (installs deps, then hugo server)
+bash view.sh
 
-# Update the Academic theme (git submodule)
-bash update_academic.sh
+# Production-style build
+pnpm install && hugo --gc --minify && pnpm run pagefind
 ```
 
-Hugo version in use: **0.70.0** (set in `netlify.toml`). The Netlify build command is `hugo --gc --minify -b $URL`.
+Toolchain: Hugo **extended** (0.164.0 pinned in `netlify.toml`), Go (Hugo modules), Node + pnpm (Tailwind CSS v4, Pagefind search). The theme is imported as Hugo modules in `config/_default/module.yaml` (`github.com/HugoBlox/kit/modules/...`); there is no `themes/` directory. Run `hugo mod get -u ./...` to update modules (updates `go.mod`/`go.sum`).
 
 ## Architecture
 
 ### Configuration
-The real config lives in `config/_default/` — not `config.toml`, which is a compatibility stub for Blogdown/Forestry. Key files:
-- `params.toml` — theme ("minimal"), site type, contact info, map coordinates
-- `menus.toml` — navigation links
-- `languages.toml` — language settings
+All config lives in `config/_default/` as YAML:
+- `hugo.yaml` — core Hugo settings, taxonomies, `ignoreLogs` (suppresses legacy-`publication`-string warnings for ~22 complex citations)
+- `params.yaml` — Hugo Blox schema v2: identity, theme colors/fonts, header/footer, SEO, citation style (MLA)
+- `menus.yaml` — navigation links (mostly `/#<block-id>` anchors into the homepage)
+- `module.yaml` — Hugo module imports and mounts
 
-### Homepage Sections
-`content/home/*.md` — each file is a headless widget. Toggle visibility with `active = true/false`; control order with `weight`. Widget types include `about`, `experience`, `accomplishments`, `projects`, `publications`, `talks`, `skills`, `featurette`, and `contact`.
+### Homepage
+`content/_index.md` is a single block-based landing page (`type: landing`). Each entry in `sections:` is a block (`resume-biography-3`, `markdown`, `resume-experience`, `resume-awards`, `collection`, `contact-info`); the `id` of each block is the anchor used by the nav menu.
+
+### Author Profile
+`data/authors/me.yaml` holds the bio, education, experience, skills, languages, and awards/certificates (rendered by `resume-*` blocks). Avatar: `assets/media/authors/me.jpg`. `content/authors/_index.md` disables separate author pages.
 
 ### Content Types
 
-| Type | Path | Format |
-|------|------|--------|
-| Bio | `content/authors/admin/_index.md` | YAML frontmatter + Markdown body |
-| Publications | `content/publication/<slug>/index.md` | YAML frontmatter |
-| Projects | `content/project/<slug>/index.md` | YAML frontmatter |
-| Talks | `content/talk/<slug>.md` or `<slug>/index.md` | YAML frontmatter |
-| Posts | `content/post/<slug>.md` | YAML frontmatter |
+| Type | Path | Notes |
+|------|------|-------|
+| Publications | `content/publications/<slug>/index.md` | YAML frontmatter |
+| Talks | `content/events/<slug>.md` or `<slug>/index.md` | TOML or YAML frontmatter |
+| Projects | `content/projects/<slug>/index.md` | YAML frontmatter |
+| Posts | `content/blog/<slug>.md` | TOML frontmatter |
 
-### Publication Types
-Numeric `publication_types` field: `"1"`=conference proceedings, `"2"`=journal article, `"5"`=book, `"6"`=book chapter, `"7"`=thesis.
+Every page carries an `aliases` entry preserving its pre-migration URL (`/publication/...`, `/talk/...`, `/post/...`, `/project/...`); the Netlify integration module emits these as `_redirects`.
 
-### Theme
-The Academic theme is a git submodule at `themes/academic/`. Do not edit files inside it directly — use the `data/`, `assets/`, and `static/` directories at the repo root to override theme assets.
+### Publication Conventions
+- `publication_types` uses CSL strings: `paper-conference`, `article-journal`, `manuscript`, `book`, `chapter`, `thesis`
+- Venue: structured `publication: {name, volume, issue, pages, publisher}` where the citation splits cleanly; complex citations (edited volumes, translations) keep the legacy flat string, suppressed in `hugo.yaml` `ignoreLogs`
+- DOIs go under `hugoblox: { ids: { doi: ... } }`
+- Links: `links:` list with `type` (pdf/code/site/...) — legacy `url_pdf`/`url_code` also still work
 
 ## Potential Future Work
 
-- Abstracts: 67 of 68 publications now have them (July 2026). The only gap is `anderson-theology-ai-2023` (CTI *Fresh Thinking* piece — full text not retrievable online; ask Cliff for a copy or an abstract). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
+- Abstracts: 67 of 68 publications have them (July 2026). The only gap is `anderson-theology-ai-2023` (CTI *Fresh Thinking* piece — full text not retrievable online; ask Cliff for a copy or an abstract). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
 - Fill in DOIs on older publications (~51 of 68 lack them). Source from publishers where possible; work backward from 2022.
 - Add featured images (`featured.jpg` or `featured.png`) to publications — only 3 of 68 have one. Start with book covers (XQuery for Humanists, Artificial Intelligence for Academic Libraries, Digital Humanities and Libraries and Archives in Religious Studies). All projects already have images.
-- Fill in `description` fields on experience entries in `content/home/experience.md` (all seven are empty)
+- Fill in `summary` fields on experience entries in `data/authors/me.yaml` (all are empty)
+- Consider converting the ~22 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)
+- The old homepage tag cloud ("Popular Topics") was dropped in the migration; restore if a tag-cloud block becomes available
 - Keep the publications list current as new work is published
-- The mapping-berlin project (`content/project/mapping-berlin/`) may need a content update
-- Upgrade Hugo (pinned at 0.70.0, May 2020, in `netlify.toml`) and the Academic theme submodule (Wowchemy is now Hugo Blox). Treat as its own project: separate branch, verify via Netlify deploy preview.
+- The mapping-berlin project (`content/projects/mapping-berlin/`) may need a content update

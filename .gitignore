@@ -1,1 +1,11 @@
 **/.DS_Store
+node_modules/
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+**/assets/jsconfig.json
+.env
+.env.local
+.env.*.local
+*.log

@@ -1,0 +1,91 @@
+# Configuration of Hugo
+# Guide: https://docs.hugoblox.com/tutorial/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Website name (set in params.yaml under hugoblox.identity.name)
+title: 'Clifford B. Anderson'
+# Website URL
+baseURL: 'https://www.cliffordanderson.net/'
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  - target:
+      path: /slides/**
+      kind: page
+    outputs: [HTML, present]
+
+############################
+## ADVANCED
+############################
+
+build:
+  writeStats: true
+enableGitInfo: true
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+disableAliases: true
+outputs:
+  home: [HTML, RSS, headers, redirects, backlinks]
+  section: [HTML, RSS]
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+timeout: 600000
+taxonomies:
+  author: authors
+  tag: tags
+  publication_type: publication_types
+markup:
+  _merge: deep
+  highlight:
+    lineNos: false
+security:
+  _merge: deep
+# Suppress legacy flat-`publication`-string warnings for entries whose full
+# citation (editors, translators, publisher) can't be losslessly split into
+# the structured {name, volume, issue, pages, publisher} shape.
+ignoreLogs:
+  - 'pub-legacy-/publications/anderson-afterword-2007/'
+  - 'pub-legacy-/publications/anderson-beauty-computing-2022/'
+  - 'pub-legacy-/publications/anderson-bits-bias-2026/'
+  - 'pub-legacy-/publications/anderson-constitutional-2021/'
+  - 'pub-legacy-/publications/anderson-digital-2018/'
+  - 'pub-legacy-/publications/anderson-flaneur-2020/'
+  - 'pub-legacy-/publications/anderson-introduction-data-lakes-2022/'
+  - 'pub-legacy-/publications/anderson-kuyper-princeton-2026/'
+  - 'pub-legacy-/publications/anderson-phenomenology-memory-2022/'
+  - 'pub-legacy-/publications/anderson-preservation-2020/'
+  - 'pub-legacy-/publications/anderson-responsible-2024/'
+  - 'pub-legacy-/publications/anderson-seijlhouwer-2020/'
+  - 'pub-legacy-/publications/anderson-texting-2024/'
+  - 'pub-legacy-/publications/barth-conversation-1-2017/'
+  - 'pub-legacy-/publications/barth-conversation-2-2018/'
+  - 'pub-legacy-/publications/barth-conversation-3-2019/'
+  - 'pub-legacy-/publications/barth-early-2022/'
+  - 'pub-legacy-/publications/harinck-early-reception-2001/'
+  - 'pub-legacy-/publications/kuipers-kuyper-bibliography-2011/'
+  - 'pub-legacy-/publications/shin-ai-superscholar-2026/'
+  - 'pub-legacy-/publications/tang-ethics-deepfakes-2025/'
+  - 'pub-legacy-/publications/xu-minding-2023/'
+sitemap:
+  _merge: deep

@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-hugo --i18n-warnings server
+# Requires: hugo (extended), go, node, pnpm
+pnpm install --no-frozen-lockfile
+hugo server --disableFastRender
