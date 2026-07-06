@@ -1,9 +1,19 @@
 /* Site-wide overrides, concatenated into the Tailwind build by the kit's
-   css.html partial (matches css/hbx/blocks/shared/**). */
+   css.html partial (auto-discovers style.css files under css/hbx/blocks/). */
 
 /* The resume-biography-3 block hardcodes very tall vertical padding
    (py-8 ... xl:py-32); trim it so the intro doesn't fill the viewport. */
 .resume-biography {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
+}
+
+/* Subtle alternating background tint so adjacent homepage sections read
+   as distinct bands. Sections are siblings, so nth-of-type alternates;
+   the intro (1st, gradient mesh) is odd and stays untinted. */
+section.hbb-section:nth-of-type(even) {
+  background-color: rgb(15 23 42 / 0.04);
+}
+.dark section.hbb-section:nth-of-type(even) {
+  background-color: rgb(255 255 255 / 0.04);
 }
