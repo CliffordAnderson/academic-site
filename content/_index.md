@@ -137,6 +137,9 @@ sections:
         - icon: brands/github
           label: GitHub
           url: https://github.com/cliffordanderson
+        - icon: custom/huggingface
+          label: Hugging Face
+          url: https://huggingface.co/andersoncliffb
         - icon: brands/linkedin
           label: LinkedIn
           url: https://www.linkedin.com/in/cliffordbanderson/
