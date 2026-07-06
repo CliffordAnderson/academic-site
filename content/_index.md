@@ -114,7 +114,7 @@ sections:
     id: contact
     content:
       title: Contact
-      email: anderson.clifford@gmail.com
+      email: clifford.anderson@yale.edu
       phone: '(609) 638-8545'
       address:
         lines:
@@ -124,12 +124,20 @@ sections:
       office_hours:
         - 'Monday 09:00 to 11:00'
         - 'Wednesday 09:00 to 11:00'
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-        My office is L107 in the Yale Divinity Library. You can also [book an appointment](https://outlook.office.com/bookwithme/user/8f2e7efcc5a6432298655d85f0c91b83@yale.edu/meetingtype/A2IxEzurnEWiJkDqnXN3vA2?anonymous&ep=mlink) with me online.
-    design:
-      columns: '1'
+      social:
+        - icon: hero/calendar-days
+          label: Book an appointment
+          url: 'https://outlook.office.com/bookwithme/user/8f2e7efcc5a6432298655d85f0c91b83@yale.edu/meetingtype/A2IxEzurnEWiJkDqnXN3vA2?anonymous&ep=mlink'
+        - icon: brands/x
+          label: X
+          url: https://twitter.com/andersoncliffb
+        - icon: academicons/google-scholar
+          label: Google Scholar
+          url: https://scholar.google.com/citations?user=sm9QklIAAAAJ&hl=en
+        - icon: brands/github
+          label: GitHub
+          url: https://github.com/cliffordanderson
+        - icon: brands/linkedin
+          label: LinkedIn
+          url: https://www.linkedin.com/in/cliffordbanderson/
 ---
