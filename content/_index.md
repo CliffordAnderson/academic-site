@@ -9,8 +9,9 @@ sections:
   - block: resume-biography-3
     id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      # Slim profile (no education/interests) so the intro stays compact;
+      # the full profile in me.yaml feeds the sections below.
+      username: intro
       text: |-
         Clifford B. Anderson is the Director of the [Divinity Library](https://web.library.yale.edu/divinity) and founding director of the [Computational Theology Lab](https://ctl.yalespace.org/) at Yale University. Among other publications, he is co-author of [Artificial Intelligence for Academic Libraries](https://www.routledge.com/Artificial-Intelligence-for-Academic-Libraries/Anderson-Fisher/p/book/9781032680354) (Routledge, 2025), [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022). He is also a co-instructor of [Programming for a Networked World](https://www.coursera.org/learn/programming-for-a-networked-world) on Coursera.
       # Show a call-to-action button under your biography? (optional)
@@ -31,8 +32,11 @@ sections:
     content:
       title: TEDx Talk on Deepfakes
       subtitle: ''
+      # Raw iframe because shortcodes are not processed inside block text
       text: |-
-        {{< youtube id="Hcyfs_Z1Okw" >}}
+        <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube-nocookie.com/embed/Hcyfs_Z1Okw" title="TEDx Talk on Deepfakes" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     design:
       columns: '1'
   - block: resume-experience
@@ -53,13 +57,13 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Recent News
       filters:
         folders:
           - blog
       count: 5
     design:
-      view: card
+      view: date-title-summary
   - block: collection
     id: projects
     content:
@@ -102,7 +106,9 @@ sections:
           - publications
       count: 5
     design:
-      view: citation
+      # date-title-summary shows each publication's abstract (or summary)
+      # beneath the title
+      view: date-title-summary
   - block: contact-info
     id: contact
     content:

@@ -1,0 +1,34 @@
+# Slim profile used only by the homepage intro (resume-biography-3) block,
+# which shows education and interests whenever the profile has them.
+# The full profile, including education, lives in me.yaml and feeds the
+# Experience/Education and Certificates sections.
+schema: hugoblox/author/v1
+slug: intro
+is_owner: false
+name:
+  display: Clifford B. Anderson
+  given: Clifford
+  family: Anderson
+role: Director of the Divinity Library
+bio: |
+  My research interests include the study of algorithms as cultural
+  artifacts, computational thinking in the humanities, large-scale textual
+  analysis of narrative data, and the religious dimensions of intellectual
+  property.
+
+affiliations:
+  - name: Yale University
+    url: https://www.yale.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:anderson.clifford@gmail.com
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/andersoncliffb
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sm9QklIAAAAJ&hl=en
+  - icon: brands/github
+    url: https://github.com/cliffordanderson
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/cliffordbanderson/
