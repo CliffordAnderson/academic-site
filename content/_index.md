@@ -114,6 +114,7 @@ sections:
     id: featured
     content:
       title: Featured Publications
+      count: 3
       filters:
         folders:
           - publications
@@ -137,10 +138,12 @@ sections:
     id: contact
     content:
       title: Contact
+      visit_title: Visit Me
       email: clifford.anderson@yale.edu
       phone: '(609) 638-8545'
       address:
         lines:
+          - Yale Divinity Library
           - 409 Prospect Street
           - New Haven, CT 06511
           - United States
