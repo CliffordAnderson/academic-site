@@ -47,7 +47,8 @@ The Academic theme is a git submodule at `themes/academic/`. Do not edit files i
 
 ## Potential Future Work
 
-- Fill in abstracts and DOIs on older publications (as of July 2026, ~55 of 68 entries have empty abstracts and ~51 lack DOIs; the five newest entries plus the recent journal articles are done). Source from publishers where possible; work backward from 2022.
+- Abstracts: 67 of 68 publications now have them (July 2026). The only gap is `anderson-theology-ai-2023` (CTI *Fresh Thinking* piece — full text not retrievable online; ask Cliff for a copy or an abstract). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
+- Fill in DOIs on older publications (~51 of 68 lack them). Source from publishers where possible; work backward from 2022.
 - Add featured images (`featured.jpg` or `featured.png`) to publications — only 3 of 68 have one. Start with book covers (XQuery for Humanists, Artificial Intelligence for Academic Libraries, Digital Humanities and Libraries and Archives in Religious Studies). All projects already have images.
 - Fill in `description` fields on experience entries in `content/home/experience.md` (all seven are empty)
 - Keep the publications list current as new work is published
