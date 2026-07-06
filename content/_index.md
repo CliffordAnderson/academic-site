@@ -32,11 +32,12 @@ sections:
     content:
       title: TEDx Talk on Deepfakes
       subtitle: ''
-      # Raw iframe because shortcodes are not processed inside block text
+      # Raw iframe because shortcodes are not processed inside block text.
+      # Intrinsic width + aspect-ratio (not an absolutely-positioned wrapper):
+      # the block's flex items-center container shrink-wraps children, which
+      # collapses a padding-hack wrapper to zero width.
       text: |-
-        <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe src="https://www.youtube-nocookie.com/embed/Hcyfs_Z1Okw" title="TEDx Talk on Deepfakes" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <iframe src="https://www.youtube-nocookie.com/embed/Hcyfs_Z1Okw" title="TEDx Talk on Deepfakes" style="width: 800px; max-width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     design:
       columns: '1'
   - block: resume-experience

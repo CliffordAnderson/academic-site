@@ -1,0 +1,9 @@
+/* Site-wide overrides, concatenated into the Tailwind build by the kit's
+   css.html partial (matches css/hbx/blocks/shared/**). */
+
+/* The resume-biography-3 block hardcodes very tall vertical padding
+   (py-8 ... xl:py-32); trim it so the intro doesn't fill the viewport. */
+.resume-biography {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
