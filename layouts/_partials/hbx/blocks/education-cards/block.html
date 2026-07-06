@@ -1,0 +1,53 @@
+{{/* Site-local block: Education Cards
+     A card grid for degrees, each with an institution logo.
+     Usage in a landing page:
+       - block: education-cards
+         content:
+           title: Education
+           items:
+             - degree: Ph.D. ...
+               institution: ...
+               year: 2005
+               logo: media/logos/....svg   # path under assets/
+*/}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{ $title := index $content "title" | default "Education" }}
+{{ $items := index $content "items" }}
+{{ if not (reflect.IsSlice $items) }}{{ $items = slice }}{{ end }}
+
+<div class="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8">
+  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ $title | markdownify }}</h2>
+  <div class="flex flex-wrap justify-center gap-6">
+    {{ range $items }}
+      {{ $degree := index . "degree" }}
+      {{ $institution := index . "institution" }}
+      {{ $year := index . "year" }}
+      {{ $logo := "" }}
+      {{ with index . "logo" }}
+        {{ with resources.Get . }}
+          {{ $r := . }}
+          {{ if reflect.IsImageResourceProcessable $r }}
+            {{ $r = $r.Resize "112x112 png" }}
+          {{ end }}
+          {{ $logo = $r.RelPermalink }}
+        {{ end }}
+      {{ end }}
+      <div class="w-full sm:w-[21rem] bg-white dark:bg-white/[0.03] backdrop-blur-xl rounded-2xl border border-gray-200 dark:border-white/[0.08] p-6 flex items-center gap-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-300">
+        {{ with $logo }}
+        <div class="w-16 h-16 shrink-0 rounded-xl bg-white p-2 border border-gray-200 dark:border-white/10 flex items-center justify-center">
+          <img src="{{ . }}" alt="{{ $institution }} logo" class="max-w-full max-h-full object-contain" loading="lazy">
+        </div>
+        {{ end }}
+        <div class="min-w-0">
+          <h3 class="font-bold text-gray-900 dark:text-white leading-snug">{{ $degree }}</h3>
+          <p class="text-primary-600 dark:text-primary-400 text-sm mt-1">{{ $institution }}</p>
+          {{ with $year }}<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">{{ . }}</p>{{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>

@@ -38,22 +38,9 @@ interests:
   - Digital Humanities
   - Theological Studies
 
-education:
-  - degree: M.S. in Library and Information Science
-    institution: Pratt Institute
-    end: 2012-05-01
-  - degree: Ph.D. in Systematic Theology
-    institution: Princeton Theological Seminary
-    end: 2005-05-01
-  - degree: Th.M. in Theology
-    institution: Princeton Theological Seminary
-    end: 1996-05-01
-  - degree: M.Div.
-    institution: Harvard University Divinity School
-    end: 1995-05-01
-  - degree: A.B. in Philosophy
-    institution: Kenyon College
-    end: 1992-05-01
+# Education lives in the education-cards block in content/_index.md
+# (with school logos); keeping it here too would render a second
+# education timeline inside the resume-experience block.
 
 experience:
   - role: Director of the Divinity Library
