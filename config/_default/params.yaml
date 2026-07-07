@@ -21,8 +21,8 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Clifford B. Anderson is the Director of the Divinity Library and founding
-      director of the Computational Theology Lab at Yale University."
+    description: "Clifford B. Anderson is the Director of the Divinity Library and founder
+      of the Computational Theology Lab at Yale University."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "andersoncliffb" # Twitter/X handle for Twitter Cards (without @)
