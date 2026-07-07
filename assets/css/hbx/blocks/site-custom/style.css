@@ -4,8 +4,14 @@
 /* The resume-biography-3 block hardcodes very tall vertical padding
    (py-8 ... xl:py-32); trim it so the intro doesn't fill the viewport. */
 .resume-biography {
-  padding-top: 1.5rem !important;
+  padding-top: 0.5rem !important;
   padding-bottom: 1.5rem !important;
+}
+
+/* Every section gets --hb-spacing-section (4rem) of vertical padding;
+   pull just the intro up toward the header so it fits on one screen. */
+#about.hbb-section {
+  padding-top: 1rem;
 }
 
 /* Compact education cards inside the intro block (resume-biography-3):
