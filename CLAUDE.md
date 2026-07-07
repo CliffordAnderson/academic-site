@@ -61,4 +61,3 @@ Every page carries an `aliases` entry preserving its pre-migration URL (`/public
 - Consider converting the ~22 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)
 - The old homepage tag cloud ("Popular Topics") was dropped in the migration; restore if a tag-cloud block becomes available
 - Keep the publications list current as new work is published
-- The mapping-berlin project (`content/projects/mapping-berlin/`) may need a content update
