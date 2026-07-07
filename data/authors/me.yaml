@@ -48,59 +48,69 @@ experience:
     org_url: https://www.yale.edu/
     location: New Haven, CT
     start: 2024-05-01
+    icon: custom/yale
   - role: Director of Digital Research
     org: Center of Theological Inquiry
     location: Princeton, NJ
     start: 2022-09-01
     end: 2024-04-30
+    icon: custom/center-theological-inquiry
   - role: Chief Digital Strategist
     org: Jean and Alexander Heard Library, Vanderbilt University
     org_url: https://www.library.vanderbilt.edu/
     location: Nashville, TN
     start: 2022-09-01
     end: 2024-03-31
+    icon: custom/vanderbilt
   - role: Professor of Religious Studies (Secondary Appointment)
     org: College of Arts and Science, Vanderbilt University
     org_url: https://www.vanderbilt.edu/
     location: Nashville, TN
     start: 2017-01-01
     end: 2024-03-31
+    icon: custom/vanderbilt
   - role: Associate University Librarian for Research and Digital Strategy
     org: Jean and Alexander Heard Library, Vanderbilt University
     org_url: https://www.library.vanderbilt.edu/
     location: Nashville, TN
     start: 2019-07-01
     end: 2022-08-31
+    icon: custom/vanderbilt
   - role: Adjunct Professor of Computer Science
     org: School of Engineering, Vanderbilt University
     org_url: https://www.vanderbilt.edu/
     location: Nashville, TN
     start: 2018-08-01
     end: 2020-08-31
+    icon: custom/vanderbilt
   - role: Associate University Librarian for Research and Learning
     org: Jean and Alexander Heard Library, Vanderbilt University
     org_url: https://www.library.vanderbilt.edu/
     location: Nashville, TN
     start: 2016-11-01
     end: 2019-06-30
+    icon: custom/vanderbilt
   - role: Director, Scholarly Communications
     org: Jean and Alexander Heard Library, Vanderbilt University
     org_url: https://www.library.vanderbilt.edu/
     location: Nashville, TN
     start: 2012-11-01
     end: 2016-10-31
+    icon: custom/vanderbilt
   - role: Curator, Special Collections
     org: Princeton Theological Seminary
     org_url: https://www.ptsem.edu/
     location: Princeton, NJ
     start: 2006-09-01
     end: 2012-10-31
+    icon: custom/princeton-theological-seminary
   - role: Curator of Reformed Research Collections
     org: Princeton Theological Seminary
     org_url: https://www.ptsem.edu/
     location: Princeton, NJ
     start: 2002-09-01
     end: 2006-08-31
+    icon: custom/princeton-theological-seminary
 
 skills:
   - name: Programming
