@@ -1,7 +1,7 @@
 ---
 title: "Computational Theology Lab"
 subtitle: "Yale Divinity School"
-summary: "The Computational Theology Lab at Yale Divinity School explores the intersection of computational methods and theological inquiry. As founding director, Clifford Anderson leads research applying digital humanities techniques—including large language models, data analysis, and knowledge representation—to questions in theology and religious studies."
+summary: "The Computational Theology Lab at Yale Divinity School explores the intersection of computational methods and theological inquiry. As founder, Clifford Anderson leads research applying digital humanities techniques—including large language models, data analysis, and knowledge representation—to questions in theology and religious studies."
 authors: ["Clifford B. Anderson"]
 tags: ["computational theology", "digital humanities", "artificial intelligence", "theology"]
 categories: []
