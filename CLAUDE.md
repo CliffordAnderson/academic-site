@@ -30,12 +30,10 @@ All config lives in `config/_default/` as YAML:
 - `module.yaml` — Hugo module imports and mounts
 
 ### Homepage
-`content/_index.md` is a single block-based landing page (`type: landing`). Each entry in `sections:` is a block (`resume-biography-3`, `markdown`, `resume-experience`, `education-cards`, `resume-awards`, `collection`, `contact-info`); the `id` of each block is the anchor used by the nav menu.
-
-`education-cards` is a site-local custom block (`layouts/_partials/hbx/blocks/education-cards/block.html`) — a card grid with school logos (`assets/media/logos/`). Education data lives in that block's `items` in `content/_index.md`, NOT in `me.yaml` (putting it back there would render a second education timeline inside `resume-experience`).
+`content/_index.md` is a single block-based landing page (`type: landing`). Each entry in `sections:` is a block (`resume-biography-3`, `markdown`, `resume-experience`, `resume-awards`, `collection`, `contact-info`); the `id` of each block is the anchor used by the nav menu.
 
 ### Author Profile
-`data/authors/me.yaml` holds the bio, experience, skills, languages, and awards/certificates (rendered by `resume-*` blocks). `data/authors/intro.yaml` is a slim variant (no education/interests) used by the homepage intro block. Avatar: `assets/media/authors/{me,intro}.jpg`. `content/authors/_index.md` disables separate author pages.
+`data/authors/me.yaml` holds the bio, experience, skills, languages, and awards/certificates (rendered by `resume-*` blocks). `data/authors/intro.yaml` is a variant used only by the homepage intro block: it carries the education entries (compact cards with school-logo icons from `assets/media/icons/custom/`; compact styling in `assets/css/hbx/blocks/site-custom/style.css`) but no interests. Keep education OUT of `me.yaml` — the `resume-experience` block would render it as a second timeline. Avatar: `assets/media/authors/{me,intro}.jpg`. `content/authors/_index.md` disables separate author pages.
 
 ### Content Types
 

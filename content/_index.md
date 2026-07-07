@@ -48,31 +48,6 @@ sections:
     design:
       # Hugo date format
       date_format: 'Jan 2006'
-  - block: education-cards
-    id: education
-    content:
-      title: Education
-      items:
-        - degree: M.S. in Library and Information Science
-          institution: Pratt Institute
-          year: 2012
-          logo: media/logos/pratt-institute.svg
-        - degree: Ph.D. in Systematic Theology
-          institution: Princeton Theological Seminary
-          year: 2005
-          logo: media/logos/princeton-theological-seminary.png
-        - degree: Th.M. in Theology
-          institution: Princeton Theological Seminary
-          year: 1996
-          logo: media/logos/princeton-theological-seminary.png
-        - degree: M.Div.
-          institution: Harvard University Divinity School
-          year: 1995
-          logo: media/logos/harvard-divinity.svg
-        - degree: A.B. in Philosophy
-          institution: Kenyon College
-          year: 1992
-          logo: media/logos/kenyon-college.svg
   - block: resume-awards
     id: certificates
     content:
