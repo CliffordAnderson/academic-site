@@ -124,40 +124,48 @@
   height: 2rem;
 }
 
-/* Talks & Publications lists (date-title-summary collections): larger
-   type, a wider column, and roomier rows with alternating shading. The
-   view partial is shadowed in layouts/_partials/views/ to surface each
-   talk's venue as p.talk-venue. */
+/* News, Talks & Publications lists (date-title-summary collections):
+   larger type, a wider column, and roomier rows with alternating
+   shading. The view partial is shadowed in layouts/_partials/views/ to
+   surface each talk's venue as p.talk-venue. */
+#posts .max-w-3xl,
 #talks .max-w-3xl,
 #papers .max-w-3xl {
   max-width: 56rem; /* the default 48rem gets tight once the type grows */
 }
+#posts .space-y-16 > * + *,
 #talks .space-y-16 > * + *,
 #papers .space-y-16 > * + * {
   margin-top: 1rem; /* pull striped rows closer than the default 4rem */
 }
+#posts article,
 #talks article,
 #papers article {
   padding: 1.5rem; /* matches the hover overlay's -inset-y-6 extent */
   border-radius: 1rem;
 }
+#posts article:nth-of-type(odd),
 #talks article:nth-of-type(odd),
 #papers article:nth-of-type(odd) {
   background-color: rgb(15 23 42 / 0.04);
 }
+.dark #posts article:nth-of-type(odd),
 .dark #talks article:nth-of-type(odd),
 .dark #papers article:nth-of-type(odd) {
   background-color: rgb(255 255 255 / 0.05);
 }
+#posts article h2,
 #talks article h2,
 #papers article h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+#posts article time,
 #talks article time,
 #papers article time {
   font-size: 0.9375rem;
 }
+#posts article .line-clamp-3,
 #talks article .line-clamp-3,
 #papers article .line-clamp-3 {
   font-size: 1rem;
