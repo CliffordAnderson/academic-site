@@ -64,6 +64,117 @@
   padding-bottom: 0 !important;
 }
 
+/* Experience timeline (resume-experience block): the block draws one
+   full-height line behind all cards, so it juts out above the first
+   marker and below the last. Replace it with per-card segments that
+   start/end at the marker circles (each circle's center sits 2.5rem
+   below its card top: the marker's top-6 offset plus half the 2rem
+   circle; the opaque circle hides the segment tips behind it). */
+#experience .relative > .absolute.top-0.bottom-0 {
+  display: none;
+}
+#experience .space-y-8 > .group::before {
+  content: "";
+  position: absolute;
+  left: 1rem; /* matches the original line's left-4 */
+  top: 0;
+  bottom: -2rem; /* bridge the space-y-8 gap to the next card */
+  width: 2px;
+  background-color: var(--color-primary-500);
+}
+@media (min-width: 640px) {
+  #experience .space-y-8 > .group::before {
+    left: 1.5rem; /* sm:left-6 */
+  }
+}
+#experience .space-y-8 > .group:first-child::before {
+  top: 2.5rem;
+}
+#experience .space-y-8 > .group:last-child::before {
+  bottom: auto;
+  height: 2.5rem;
+}
+
+/* Timeline markers carry university logos (full-color SVGs) instead of
+   the default briefcase glyph: grow the 2rem circle to 3rem and the
+   icon to 2rem so the marks are legible, and keep the circle white in
+   dark mode. The marker container is repositioned so the circle center
+   stays at the line's x (1rem, sm: 1.5rem) and 2.5rem below the card
+   top — the same point the per-card line segments assume. */
+#experience .group > .absolute.top-6 {
+  left: -0.5rem;
+  top: 1rem;
+}
+@media (min-width: 640px) {
+  #experience .group > .absolute.top-6 {
+    left: 0;
+  }
+}
+#experience .group .absolute.inset-0 {
+  width: 100%;
+  height: 100%;
+}
+#experience .relative.w-8.rounded-full {
+  background-color: white !important;
+  width: 3rem;
+  height: 3rem;
+}
+#experience .relative.w-8.rounded-full svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* News, Talks & Publications lists (date-title-summary collections):
+   larger type, a wider column, and roomier rows with alternating
+   shading. The view partial is shadowed in layouts/_partials/views/ to
+   surface each talk's venue as p.talk-venue. */
+#posts .max-w-3xl,
+#talks .max-w-3xl,
+#papers .max-w-3xl {
+  max-width: 56rem; /* the default 48rem gets tight once the type grows */
+}
+#posts .space-y-16 > * + *,
+#talks .space-y-16 > * + *,
+#papers .space-y-16 > * + * {
+  margin-top: 1rem; /* pull striped rows closer than the default 4rem */
+}
+#posts article,
+#talks article,
+#papers article {
+  padding: 1.5rem; /* matches the hover overlay's -inset-y-6 extent */
+  border-radius: 1rem;
+}
+#posts article:nth-of-type(odd),
+#talks article:nth-of-type(odd),
+#papers article:nth-of-type(odd) {
+  background-color: rgb(15 23 42 / 0.04);
+}
+.dark #posts article:nth-of-type(odd),
+.dark #talks article:nth-of-type(odd),
+.dark #papers article:nth-of-type(odd) {
+  background-color: rgb(255 255 255 / 0.05);
+}
+#posts article h2,
+#talks article h2,
+#papers article h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+#posts article time,
+#talks article time,
+#papers article time {
+  font-size: 0.9375rem;
+}
+#posts article .line-clamp-3,
+#talks article .line-clamp-3,
+#papers article .line-clamp-3 {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+#talks .talk-venue {
+  font-size: 1rem;
+}
+
 /* Subtle alternating background tint so adjacent homepage sections read
    as distinct bands. Sections are siblings, so nth-of-type alternates;
    the intro (1st, gradient mesh) is odd and stays untinted. */
