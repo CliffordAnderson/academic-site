@@ -57,7 +57,9 @@ Every page carries an `aliases` entry preserving its pre-migration URL (`/public
 - Abstracts: 67 of 68 publications have them (July 2026). The only gap is `anderson-theology-ai-2023` (CTI *Fresh Thinking* piece — full text not retrievable online; ask Cliff for a copy or an abstract). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
 - Fill in DOIs on older publications (~51 of 68 lack them). Source from publishers where possible; work backward from 2022.
 - Add featured images (`featured.jpg` or `featured.png`) to publications — only 3 of 68 have one. Start with book covers (XQuery for Humanists, Artificial Intelligence for Academic Libraries, Digital Humanities and Libraries and Archives in Religious Studies). All projects already have images.
-- Fill in `summary` fields on experience entries in `data/authors/me.yaml` (all are empty)
-- Consider converting the ~22 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)
+- Add `summary` fields to experience entries in `data/authors/me.yaml` (currently absent — needs Cliff's input on what to highlight per role)
+- Consider converting the 25 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)
 - The old homepage tag cloud ("Popular Topics") was dropped in the migration; restore if a tag-cloud block becomes available
 - Keep the publications list current as new work is published
+- News posts `cultural-heritage-at-scale-2016` and `wikipedia-edit-a-thon`: the source articles tag Cliff but don't describe his role, so the posts don't either — ask Cliff whether to add a line about his involvement
+- News-link maintenance: pre-2024 news.vanderbilt.edu articles were purged (404), so news posts link Wayback Machine snapshots instead — verify the snapshot's page title, not just its HTTP status, when adding more
