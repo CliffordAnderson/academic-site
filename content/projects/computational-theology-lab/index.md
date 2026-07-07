@@ -10,8 +10,8 @@ lastmod: 2024-05-01T00:00:00
 featured: true
 draft: false
 links:
-  - icon_pack: fas
-    icon: globe
+  - type: site
+    icon: hero/globe-alt
     name: Website
     url: 'https://ctl.yalespace.org/'
 
@@ -23,4 +23,6 @@ image:
 projects: []
 aliases: ["/project/computational-theology-lab/"]
 ---
+
+The Computational Theology Lab at Yale Divinity School explores the intersection of computational methods and theological inquiry. As founder, Clifford Anderson leads research applying digital humanities techniques—including large language models, data analysis, and knowledge representation—to questions in theology and religious studies.
 

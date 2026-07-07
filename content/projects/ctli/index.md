@@ -12,8 +12,8 @@ lastmod: 2020-05-28T20:00:46-05:00
 featured: false
 draft: false
 links:
-  - icon_pack: fab
-    icon: website
+  - type: site
+    icon: hero/globe-alt
     name: Website
     url: 'https://alo.ees.vanderbilt.edu/ctli/'
 
@@ -33,4 +33,6 @@ image:
 projects: []
 aliases: ["/project/ctli/"]
 ---
+
+The Computational Thinking and Learning Initiative at Vanderbilt University fosters computational thinking across the curriculum. Among its pilot activities, the CTLI sponsors a working group seeking to make advanced text mining techniques more accessible to students from the humanities and the social sciences.
 

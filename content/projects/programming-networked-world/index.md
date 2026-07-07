@@ -10,8 +10,8 @@ lastmod: 2020-01-01T00:00:00
 featured: false
 draft: false
 links:
-  - icon_pack: fas
-    icon: graduation-cap
+  - type: site
+    icon: hero/academic-cap
     name: Coursera
     url: 'https://www.coursera.org/learn/programming-for-a-networked-world'
 
@@ -23,4 +23,6 @@ image:
 projects: []
 aliases: ["/project/programming-networked-world/"]
 ---
+
+An online course on Coursera introducing programming concepts for working with networked data and web technologies, designed for learners in the humanities, library science, and related fields.
 

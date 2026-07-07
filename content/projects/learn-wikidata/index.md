@@ -12,8 +12,8 @@ lastmod: 2021-09-29T16:40:46-05:00
 featured: false
 draft: false
 links:
-  - icon_pack: fab
-    icon: website
+  - type: site
+    icon: hero/globe-alt
     name: Website
     url: 'https://www.learnwikidata.net'
 
@@ -33,4 +33,6 @@ image:
 projects: []
 aliases: ["/project/learn-wikidata/"]
 ---
+
+The goal of the project is to develop and implement interactive learning pathways for information professionals to learn the fundamentals of WikiCite.
 
