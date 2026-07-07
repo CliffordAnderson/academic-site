@@ -14,10 +14,6 @@ sections:
       username: intro
       text: |-
         Clifford B. Anderson is the Director of the [Divinity Library](https://web.library.yale.edu/divinity) and founding director of the [Computational Theology Lab](https://ctl.yalespace.org/) at Yale University. Among other publications, he is co-author of [Artificial Intelligence for Academic Libraries](https://www.routledge.com/Artificial-Intelligence-for-Academic-Libraries/Anderson-Fisher/p/book/9781032680354) (Routledge, 2025), [XQuery for Humanists](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) (Texas A&M University Press, 2020) and editor of [Digital Humanities and Libraries and Archives in Religious Studies](https://www.degruyter.com/document/doi/10.1515/9783110536539/html) (De Gruyter, 2022). He is also a co-instructor of [Programming for a Networked World](https://www.coursera.org/learn/programming-for-a-networked-world) on Coursera.
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: /files/cv.pdf
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
