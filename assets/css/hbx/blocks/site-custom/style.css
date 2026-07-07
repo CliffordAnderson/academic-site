@@ -57,6 +57,13 @@
   margin-bottom: 1rem;
 }
 
+/* The contact-info block adds its own py-12/sm:py-16/lg:py-20 wrapper
+   inside the section's 4rem padding; drop the doubled spacing. */
+#contact > div.max-w-7xl {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* Subtle alternating background tint so adjacent homepage sections read
    as distinct bands. Sections are siblings, so nth-of-type alternates;
    the intro (1st, gradient mesh) is odd and stays untinted. */
