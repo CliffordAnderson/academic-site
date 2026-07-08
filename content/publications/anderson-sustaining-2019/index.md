@@ -7,6 +7,9 @@ abstract: "This paper reports on the findings of a sustainability study of telev
 featured: false
 publication:
   name: "Journal of Digital Media Management"
+hugoblox:
+  ids:
+    doi: "10.69554/KFCV5556"
 aliases: ["/publication/anderson-sustaining-2019/"]
 ---
 

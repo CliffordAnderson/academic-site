@@ -7,6 +7,10 @@ abstract: "An interim report on the emerging field of computational theology, su
 featured: false
 publication:
   name: "Fresh Thinking: Magazine of the Center of Theological Inquiry"
+  issue: "11"
 aliases: ["/publication/anderson-computational-2023/"]
+links:
+  - type: pdf
+    url: "https://issuu.com/ctinquiry/docs/fresh_thinking_magazine_issue_11"
 ---
 

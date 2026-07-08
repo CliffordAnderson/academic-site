@@ -9,6 +9,9 @@ publication:
   name: "Koinonia"
 tags: ["theology"]
 aliases: ["/publication/anderson-theodicy-1997/"]
+links:
+  - type: pdf
+    url: "https://archive.org/details/koinoniaprinceto912unse"
 ---
 
 

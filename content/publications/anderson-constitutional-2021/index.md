@@ -7,6 +7,9 @@ abstract: "This chapter brings Karl Barth into critical conversation with the ju
 featured: false
 publication: "*Theo-politics? Conversing with Barth in Western and Asian Contexts*, edited by Markus Höffner. London: Lexington Books"
 tags: ["theology", "Barth"]
+hugoblox:
+  ids:
+    doi: "10.5040/9781978719217.ch-7"
 aliases: ["/publication/anderson-constitutional-2021/"]
 ---
 

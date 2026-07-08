@@ -8,6 +8,9 @@ featured: false
 publication:
   name: "The Princeton Seminary Bulletin"
 aliases: ["/publication/anderson-canopy-2003/"]
+links:
+  - type: pdf
+    url: "https://archive.org/details/princetonseminar2412prin"
 ---
 
 

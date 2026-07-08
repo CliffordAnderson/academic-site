@@ -7,6 +7,9 @@ abstract: "This contribution to a collection of short essays on teaching with di
 featured: false
 publication: "*Quick Hits: Teaching with Digital Humanities*, edited by Christopher Young and Emma Annette Wilson. Bloomington: Indiana University Press"
 tags: ["digital humanities", "pedagogy"]
+hugoblox:
+  ids:
+    doi: "10.2307/j.ctv16rdcqh.22"
 aliases: ["/publication/anderson-flaneur-2020/"]
 ---
 

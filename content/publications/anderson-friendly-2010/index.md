@@ -8,6 +8,9 @@ featured: false
 publication:
   name: "inSpire"
 aliases: ["/publication/anderson-friendly-2010/"]
+links:
+  - type: pdf
+    url: "https://archive.org/details/inspire141unse"
 ---
 
 

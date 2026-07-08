@@ -7,7 +7,13 @@ abstract: "This paper briefly summarizes an in-conference workshop about Wikidat
 featured: false
 publication:
   name: "American Theological Library Association Summary of Proceedings"
+hugoblox:
+  ids:
+    doi: "10.31046/proceedings.2018.117"
 aliases: ["/publication/anderson-introduction-2018/"]
+links:
+  - type: pdf
+    url: "https://serials.atla.com/proceedings/article/view/117"
 ---
 
 

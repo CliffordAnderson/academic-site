@@ -9,6 +9,9 @@ publication:
   name: "Christian History"
 tags: ["theology"]
 aliases: ["/publication/anderson-meeting-2013/"]
+links:
+  - type: site
+    url: "https://christianhistoryinstitute.org/magazine/article/meeting-together-for-the-good-of-the-world"
 ---
 
 

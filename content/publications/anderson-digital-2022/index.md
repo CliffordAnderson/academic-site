@@ -17,9 +17,9 @@ image:
   caption: "Digital Humanities and Libraries and Archives in Religious Studies"
   focal_point: "TopRight"
   preview_only: false
+hugoblox:
+  ids:
+    doi: "10.1515/9783110536539"
 aliases: ["/publication/anderson-digital-2022/"]
-links:
-  - type: code
-    url: "https://www.degruyter.com/document/doi/10.1515/9783110536539/html"
 ---
 

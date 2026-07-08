@@ -8,6 +8,9 @@ abstract: "In this paper, I provide an introduction to deepfakes and related mac
 featured: true
 publication:
   name: "Cursur: Zeitschrift für explorative Theologie"
+hugoblox:
+  ids:
+    doi: "10.21428/fb61f6aa.771d30b7"
 aliases: ["/publication/anderson-digital-2019/"]
 links:
   - type: pdf

@@ -8,6 +8,9 @@ featured: false
 publication:
   name: "Creation and Salvation: Dialogue on Abraham Kuyper's Legacy for Contemporary Ecotheology"
 tags: ["theology"]
+hugoblox:
+  ids:
+    doi: "10.1163/ej.9789004203365.i-284.36"
 aliases: ["/publication/anderson-kuyper-2011/"]
 ---
 

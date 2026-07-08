@@ -7,6 +7,9 @@ abstract: "The first all-encompassing bibliography of the works of Abraham Kuype
 featured: false
 publication: "*Brill*. Edited by Barend Meijer. Translated by Clifford B. Anderson and Houniet Dagmare"
 tags: ["theology", "translation", "Kuyper"]
+hugoblox:
+  ids:
+    doi: "10.1163/ej.9789004211391.i-758"
 aliases: ["/publication/kuipers-kuyper-bibliography-2011/"]
 ---
 

@@ -54,8 +54,9 @@ Every page carries an `aliases` entry preserving its pre-migration URL (`/public
 
 ## Potential Future Work
 
-- Abstracts: 67 of 68 publications have them (July 2026). The only gap is `anderson-theology-ai-2023` (CTI *Fresh Thinking* piece — full text not retrievable online; ask Cliff for a copy or an abstract). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
-- Fill in DOIs on older publications (~51 of 68 lack them). Source from publishers where possible; work backward from 2022.
+- Abstracts: all 68 publications have them (July 2026; the `anderson-theology-ai-2023` gap was closed after finding the full text in *Fresh Thinking* issue 10 on issuu). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
+- DOIs: 27 of 68 have them (July 2026) — that appears to be all that exist. The other 41 were searched against Crossref; their venues are unregistered (pre-2018 Atla Summary of Proceedings, Princeton Seminary Bulletin before vol. 28/2007, ZDTh, Cultural Encounters, Calvin Theological Journal, Koinonia, inSpire, and Eerdmans/WJK/Lexham book chapters). Re-check occasionally in case of retroactive assignment.
+- Full-text links: open-access full text goes in `links:` (`type: pdf` for scans/PDF viewers — archive.org, issuu, serials.atla.com; `type: site` for HTML articles). Useful sources: PTS journals (PSB, Koinonia, inSpire) are digitized on archive.org via Theological Commons; *Fresh Thinking* issues are on issuu.com/ctinquiry (issue 10 = theology-ai, 11 = computational, 12 = texting).
 - Add featured images (`featured.jpg` or `featured.png`) to publications — 7 of 68 have one (July 2026). All six book-type entries now carry their covers; remaining candidates are chapters/articles, which rarely have obvious artwork — ask Cliff which (if any) deserve images. All projects already have images.
 - Add `summary` fields to experience entries in `data/authors/me.yaml` (currently absent — needs Cliff's input on what to highlight per role)
 - Consider converting the 25 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)

@@ -9,6 +9,9 @@ publication:
   name: "Comment"
 tags: ["theology"]
 aliases: ["/publication/anderson-neocalvinism-2006/"]
+links:
+  - type: site
+    url: "https://comment.org/neocalvinism-abraham-kuyper-maybe/"
 ---
 
 

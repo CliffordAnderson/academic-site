@@ -7,6 +7,9 @@ abstract: "Edmund Husserl described the act of remembering as essentially curato
 featured: false
 publication: "*Collecting in the Twenty-First Century: From Museums to the Web*, edited by Johannes Endres and Christoph Zeller. Rochester, NY: Camden House"
 tags: ["digital humanities", "memory"]
+hugoblox:
+  ids:
+    doi: "10.1017/9781800103382.007"
 aliases: ["/publication/anderson-phenomenology-memory-2022/"]
 ---
 

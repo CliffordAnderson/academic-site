@@ -7,7 +7,13 @@ abstract: "A panel presentation from the 2019 Atla Annual conference offering br
 featured: false
 publication:
   name: "American Theological Library Association Summary of Proceedings"
+hugoblox:
+  ids:
+    doi: "10.31046/proceedings.2019.1619"
 aliases: ["/publication/adams-digital-2019/"]
+links:
+  - type: pdf
+    url: "https://serials.atla.com/proceedings/article/view/1619"
 ---
 
 
