@@ -66,6 +66,29 @@
   margin-bottom: 1rem;
 }
 
+/* Yale University affiliation line in the intro (the p.text-lg
+   .text-gray-700 under the role): enlarge it and use Yale's official
+   palette — Yale Blue #00356B in light mode, the official light blue
+   #63AAFF in dark mode where Yale Blue would vanish. Hover shifts to
+   the official medium blue #286DC0 (underline carries the cue in dark
+   mode, where #286DC0 is too dim). */
+#about p.text-lg.text-gray-700 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #00356b;
+}
+.dark #about p.text-lg.text-gray-700 {
+  color: #63aaff;
+}
+#about p.text-lg.text-gray-700 a:hover {
+  color: #286dc0;
+  text-decoration: underline;
+}
+.dark #about p.text-lg.text-gray-700 a:hover {
+  color: #63aaff;
+}
+
 /* The contact-info block adds its own py-12/sm:py-16/lg:py-20 wrapper
    inside the section's 4rem padding; drop the doubled spacing. */
 #contact > div.max-w-7xl {
