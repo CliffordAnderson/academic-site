@@ -2,7 +2,7 @@
   command = """
     set -e
     pnpm install --no-frozen-lockfile
-    hugo --gc --minify -b $URL
+    hugo --gc --minify --buildFuture -b $URL
     pnpm run pagefind
   """
   publish = "public"
@@ -30,7 +30,7 @@
   command = """
     set -e
     pnpm install --no-frozen-lockfile
-    hugo --gc --minify -b $DEPLOY_PRIME_URL
+    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL
     pnpm run pagefind
   """
 

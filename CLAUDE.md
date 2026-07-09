@@ -14,8 +14,8 @@ Migrated from Hugo 0.70.0 + Academic theme v4.8 (git submodule) to Hugo Blox (Hu
 # Local development server (installs deps, then hugo server)
 bash view.sh
 
-# Production-style build
-pnpm install && hugo --gc --minify && pnpm run pagefind
+# Production-style build (--buildFuture so upcoming talks render)
+pnpm install && hugo --gc --minify --buildFuture && pnpm run pagefind
 ```
 
 Toolchain: Hugo **extended** (0.164.0 pinned in `netlify.toml`), Go (Hugo modules), Node + pnpm (Tailwind CSS v4, Pagefind search). The theme is imported as Hugo modules in `config/_default/module.yaml` (`github.com/HugoBlox/kit/modules/...`); there is no `themes/` directory. Run `hugo mod get -u ./...` to update modules (updates `go.mod`/`go.sum`).

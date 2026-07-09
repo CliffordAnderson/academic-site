@@ -2,4 +2,4 @@
 
 # Requires: hugo (extended), go, node, pnpm
 pnpm install --no-frozen-lockfile
-hugo server --disableFastRender
+hugo server --disableFastRender --buildFuture
