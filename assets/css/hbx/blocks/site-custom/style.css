@@ -20,6 +20,15 @@
 #about .xl\:grid-cols-3 {
   gap: 0.75rem;
 }
+/* Cards already stretch within a grid row (h-full), but each row sizes
+   to its own content, so the row whose degree titles don't wrap comes
+   out shorter. Equalize all rows once the grid goes multi-column;
+   leave the single-column mobile layout at natural heights. */
+@media (min-width: 768px) {
+  #about .xl\:grid-cols-3 {
+    grid-auto-rows: 1fr;
+  }
+}
 #about .xl\:grid-cols-3 > div {
   padding: 0.75rem 1rem;
 }
