@@ -52,6 +52,9 @@ Every page carries an `aliases` entry preserving its pre-migration URL (`/public
 - DOIs go under `hugoblox: { ids: { doi: ... } }`
 - Links: `links:` list with `type` (pdf/code/site/...) — legacy `url_pdf`/`url_code` also still work
 
+### Local Theme Overrides
+`layouts/_partials/functions/has_attachments.html` overrides the blox module's version, which doesn't check `hugoblox.ids` — upstream, publications whose only link is a DOI under `hugoblox.ids.doi` get no button row in citation lists. Report to HugoBlox/kit and drop the override once fixed upstream.
+
 ## Potential Future Work
 
 - Abstracts: all 68 publications have them (July 2026; the `anderson-theology-ai-2023` gap was closed after finding the full text in *Fresh Thinking* issue 10 on issuu). Note: many pre-2015 entries carry descriptive summaries composed for this site rather than published abstracts; Cliff may refine them.
