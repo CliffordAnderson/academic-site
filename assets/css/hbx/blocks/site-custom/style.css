@@ -156,6 +156,62 @@
   height: 2rem;
 }
 
+/* Certificates & Training (resume-awards block): the block stacks
+   full-width p-6 cards in a max-w-prose column; regrid them into
+   compact cards (2-up, 3-up at xl) with smaller type, and grow each
+   award's title icon into a white logo slot for the awarder's mark
+   (assets/media/icons/custom/), echoing the education cards above.
+   The outer wrapper is .max-w-prose; the card list is the only
+   .w-full.flex.flex-col inside it. */
+#certificates .max-w-prose {
+  max-width: 64rem;
+}
+#certificates .max-w-prose > .w-full.flex.flex-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+@media (min-width: 768px) {
+  #certificates .max-w-prose > .w-full.flex.flex-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  #certificates .max-w-prose > .w-full.flex.flex-col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#certificates .max-w-prose > .w-full.flex.flex-col > div {
+  padding: 0.75rem 1rem;
+}
+#certificates .w-full.flex.flex-col h5 {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin-bottom: 0.375rem;
+}
+/* The icon span in the title row becomes a rectangular white logo
+   slot (the marks include wide wordmarks), as in the education cards. */
+#certificates .w-full.flex.flex-col h5 > span.inline-flex {
+  width: 4rem !important;
+  height: 3rem !important;
+  flex: none;
+  border-radius: 0.5rem;
+  background-color: white !important;
+  padding: 0.3rem;
+}
+#certificates .w-full.flex.flex-col h5 > span.inline-flex svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+#certificates .w-full.flex.flex-col .text-sm {
+  margin-bottom: 0.25rem;
+}
+#certificates .w-full.flex.flex-col .prose {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
 /* News, Talks & Publications lists (date-title-summary collections):
    larger type, a wider column, and roomier rows with alternating
    shading. The view partial is shadowed in layouts/_partials/views/ to

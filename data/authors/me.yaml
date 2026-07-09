@@ -148,16 +148,21 @@ awards:
   - title: AWS Certified Cloud Practitioner
     awarder: Amazon Web Services
     date: "2021-09-11"
+    icon: custom/aws
   - title: From Media Computation to Data Science
     awarder: openSAP
     date: "2020-10-21"
+    icon: custom/sap
   - title: Certified ScrumMaster
     awarder: ScrumAlliance
     date: "2009-10-27"
+    icon: custom/scrum-alliance
   - title: Certificate in Intellectual Property Law
     awarder: New York University
     date: "2009-08-18"
     summary: Fundamentals of IP Management, Trademark, Copyright, International IP, Patent Law, and Advanced Patent Law
+    icon: custom/nyu
   - title: Leadership Institute for Academic Librarians
     awarder: Harvard Graduate School of Education
     date: "2007-08-10"
+    icon: custom/harvard-gse
