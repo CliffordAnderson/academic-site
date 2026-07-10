@@ -65,5 +65,6 @@ Every page carries an `aliases` entry preserving its pre-migration URL (`/public
 - Consider converting the 25 legacy flat `publication` strings to the structured shape (requires manual bibliographic judgment — ask Cliff)
 - The old homepage tag cloud ("Popular Topics") was dropped in the migration; restore if a tag-cloud block becomes available
 - Keep the publications list current as new work is published
+- Talk abstracts: 21 of 25 talks have them (July 2026). Four were distilled by Claude from full talk/paper texts Cliff supplied (building-or-buying-2024, gender-bias-2025, icfa-2026, church-ai-zurich-2026). The remaining 4 have no published abstract findable online — ai-ethics-2024, yale-law-2025, neocalvinismus-2024 (invited talks) and aar-women-religion-2024 — Cliff can supply or dictate these; prefer his submitted abstract text verbatim.
 - News posts `cultural-heritage-at-scale-2016` and `wikipedia-edit-a-thon`: the source articles tag Cliff but don't describe his role, so the posts don't either — ask Cliff whether to add a line about his involvement
 - News-link maintenance: pre-2024 news.vanderbilt.edu articles were purged (404), so news posts link Wayback Machine snapshots instead — verify the snapshot's page title, not just its HTTP status, when adding more
