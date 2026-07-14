@@ -15,7 +15,7 @@ publication:
 tags: ["Digital Humanities"]
 image:
   caption: "Digital Humanities and Libraries and Archives in Religious Studies"
-  focal_point: "TopRight"
+  focal_point: "Center"
   preview_only: false
 hugoblox:
   ids:

@@ -15,7 +15,7 @@ publication:
 tags: ["programming"]
 image:
   caption: "XQuery for Humanists"
-  focal_point: "TopRight"
+  focal_point: "Center"
   preview_only: false
 aliases: ["/publication/anderson-xquery-2020/"]
 links:
