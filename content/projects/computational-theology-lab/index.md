@@ -17,7 +17,7 @@ links:
 
 image:
   caption: "Computational Theology Lab"
-  focal_point: "Smart"
+  focal_point: "Center"
   preview_only: false
 
 projects: []

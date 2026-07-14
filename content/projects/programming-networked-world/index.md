@@ -17,7 +17,7 @@ links:
 
 image:
   caption: "Programming for a Networked World"
-  focal_point: "Smart"
+  focal_point: "Center"
   preview_only: false
 
 projects: []
