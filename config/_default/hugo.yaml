@@ -47,9 +47,16 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
   anchor: smart
-  hint: picture
+  # quality/hint moved per-format in Hugo 0.163
+  jpeg:
+    quality: 90
+  webp:
+    quality: 90
+    hint: picture
+  avif:
+    quality: 90
+    hint: picture
 timeout: 600000
 taxonomies:
   author: authors
@@ -61,6 +68,19 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    # Hugo's default exec allowlist varies by version: 0.164 ran Tailwind
+    # through `node`, while 0.166 execs the `tailwindcss` binary directly
+    # and does not permit it by default. Spell out the full list so the
+    # build works on either version.
+    allow:
+      - ^(dart-)?sass$
+      - ^go$
+      - ^git$
+      - ^node$
+      - ^npx$
+      - ^postcss$
+      - ^tailwindcss$
 # Suppress legacy flat-`publication`-string warnings for entries whose full
 # citation (editors, translators, publisher) can't be losslessly split into
 # the structured {name, volume, issue, pages, publisher} shape.

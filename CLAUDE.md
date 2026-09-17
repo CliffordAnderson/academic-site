@@ -18,7 +18,7 @@ bash view.sh
 pnpm install && hugo --gc --minify --buildFuture && pnpm run pagefind
 ```
 
-Toolchain: Hugo **extended** (0.164.0 pinned in `netlify.toml`), Go (Hugo modules), Node + pnpm (Tailwind CSS v4, Pagefind search). The theme is imported as Hugo modules in `config/_default/module.yaml` (`github.com/HugoBlox/kit/modules/...`); there is no `themes/` directory. Run `hugo mod get -u ./...` to update modules (updates `go.mod`/`go.sum`).
+Toolchain: Hugo **extended** (0.166.0 pinned in `netlify.toml`), Go (Hugo modules), Node + pnpm (Tailwind CSS v4, Pagefind search). The theme is imported as Hugo modules in `config/_default/module.yaml` (`github.com/HugoBlox/kit/modules/...`); there is no `themes/` directory. Run `hugo mod get -u ./...` to update modules (updates `go.mod`/`go.sum`).
 
 ## Architecture
 
